@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="245dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="104dp"
+        android:foregroundGravity="fill_horizontal|center|clip_vertical"
+        android:lineSpacingExtra="8sp"
+        android:onClick="@string/androidx_startup"
+        android:text="Close"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="253dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="79dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_accessibility_24" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/hello_world"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+
+    <!--
+    dp
+    wrap_content
+    px не использовать
+    match_parent по родителю гориз
+    -->
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/on_click"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:onClick="onMyClick"
+        android:textAllCaps="true"
+        android:textSize="35sp"
+        android:textColor="@color/teal_200"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:paddingTop="50dp"
+        android:layout_margin="50dp"
+        android:background="#DD2C2C"/>
+
+
+    <ImageButton
+        android:id="@+id/btn_two"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_accessibility_24"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitCenter"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Первый проект</string>
+    <string name="hello_world">Привет Мир!</string>
+    <string name="on_click">Нажми</string>
+</resources>
